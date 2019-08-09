@@ -12,5 +12,4 @@ class Blog extends CI_Controller {
 		$data = array('content' => 'blog/v_readmore');
     	$this->load->view('blog/layout/layout', $data);
 	}
-
 }
